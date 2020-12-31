@@ -1,0 +1,152 @@
+.flVKWq {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 150px 72px;
+}
+
+.hGmODR {
+    display: block;
+}
+
+/* Start Corner */
+.ejMYRf {
+    position: absolute;
+    background: transparent;
+    display: block;
+    z-index: 101;
+    width: 60%;
+    height: 167px;
+    right: 0px;
+    top: 0px;
+}
+
+.bdDYJz::after {
+    clip-path: polygon(100% 100%, 100% 0px, 0px 0px);
+}
+
+.ejMYRf::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    height: 167px;
+    padding-bottom: 167px;
+    background: rgb(116, 203, 255);
+}
+
+.bokBDO {
+    max-width: 1360px;
+    width: 100%;
+}
+
+.iQskcc {
+    max-width: 1360px;
+    flex-direction: row;
+    padding: 100px 0px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.emBbeV {
+    min-width: 300px;
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: column;
+}
+
+.hXwWQH {
+    transform: scale(1.3);
+}
+
+.eEDHmj {
+    align-self: auto;
+    padding-left: 75px;
+    max-height: 200px;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 24px;
+}
+
+.dXpstt {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.dXpstt img {
+    width: 100%;
+    z-index: 0;
+    height: 100%;
+}
+
+.dvyujH {
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    margin-bottom: 12px;
+    min-height: 75px;
+}
+
+.bHxsHx {
+    margin-left: 12px;
+    align-self: flex-start;
+    text-align: center;
+    padding: 6px 13px;
+    max-width: 44px;
+    position: relative;
+    top: 15px;
+    color: rgb(40, 170, 255);
+    border: 2px solid rgb(40, 170, 255);
+}
+
+.emBbeV h3 {
+    padding-left: 32px;
+    font-size: 21px;
+    line-height: 27px;
+    color: rgb(40, 170, 255);
+    text-transform: uppercase;
+}
+
+.hXwzaM {
+    padding-left: 88px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+/* End Corner */
+.dYoOrv {
+    position: absolute;
+    background: transparent;
+    display: block;
+    z-index: 101;
+    width: 100%;
+    height: 167px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.jGLdVH::after {
+    clip-path: polygon(0px 0px, 0px 100%, 100% 100%);
+}
+
+.dYoOrv::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    height: 167px;
+    padding-bottom: 167px;
+    background: rgb(116, 203, 255);
+}

@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    vertical-align: baseline;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+p {
+  font-weight: 400;
+}
+
+.nav-back-white {
+    clip-path: polygon(0px 0px, 0% 100%, 100% 0px);
+  height: 160px;
+  width: 550px;
+  padding: 30px 0px 0px 30px;
+  z-index: 3;
+  position: fixed;
+  background: rgb(255, 255, 255);
+}
+.nav-back-gray {
+  display: block;
+  z-index: 1;
+  position: fixed;
+  height: 172px;
+  width: 450px;
+  background: rgb(233, 246, 255);
+  clip-path: polygon(0px 0px, 0% 100%, 100% 50%);
+}
+.nav-back-blue {
+  z-index: 2;
+  position: fixed;
+  background: rgb(40, 170, 255);
+  width: 100%;
+  height: 160px;
+  clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 0px 50%);
+  display: block;
+}
+
+.gosmXj {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.iZrtTy {
+  position: absolute;
+  background: transparent;
+  display: block;
+  z-index: 0;
+  width: 40%;
+  height: 210px;
+  bottom: 0px;
+  right: 0px;
+}
+.iZrtTy::after {
+  content: "";
+  clip-path: polygon(0px 100%, 100% 100%, 100% 0px);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  height: 210px;
+  padding-bottom: 210px;
+  background: rgb(40, 170, 255);
+}
