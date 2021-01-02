@@ -17,7 +17,7 @@
     position: absolute;
     background: transparent;
     display: block;
-    z-index: 101;
+    z-index: 1;
     width: 60%;
     height: 167px;
     right: 0px;

@@ -55,7 +55,7 @@ p {
 }
 
 .gosmXj {
-  height: 100%;
+  height: 100vh;
   width: 100%;
   object-fit: cover;
 }
@@ -78,4 +78,45 @@ p {
   height: 210px;
   padding-bottom: 210px;
   background: rgb(40, 170, 255);
+}
+
+.nav-logo {
+  position: fixed;
+  z-index: 5;
+  top: 25px;
+  left: 25px;
+  margin: 0;
+}
+
+.nav-logo svg {
+  height: 55px;
+}
+
+.nav-main {
+  position: fixed;
+  z-index: 5;
+  top: 45px;
+  right: 0px;
+  margin: 0;
+  width: 70%;
+  text-align: center;
+}
+
+.nav-main ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 10%;
+  list-style: none;
+}
+
+.nav-main a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.nav-main a:hover {
+  color: rgb(212, 243, 255);
 }
