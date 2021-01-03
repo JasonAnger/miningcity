@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="styles/howto.css" />
   <link rel="stylesheet" href="styles/contactus.css" />
   <link rel="stylesheet" href="styles/footer.css" />
+  <link rel="stylesheet" href="styles/post.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
   <title>Document</title>
@@ -48,159 +49,14 @@
           </ul>
         </div>
     </nav>
-    <div style="max-height: 100vh;">
-      <video loop="" autoplay="" playsinline="" class="sc-hBMVcZ gosmXj">
-        <source src="videos/miningcity_video-6a5d6e4493ecf2c323bb9077d56dac9a.mp4" type="video/mp4" />
-      </video>
-      <div style="display: block;width: 100%; top: 100vh; position: absolute;">
-        <div width="40%" height="210px" color="#28aaff" class="sc-gtssRu sc-eCApGN iZrtTy htLRdL"></div>
-      </div>
-    </div>
   </header>
   <main>
-    <section id="aboutus">
-      <div class="sc-dvXXZy eqfPow">
-        <div class="sc-bdnylx ctezCv">
-          <div width="10%" height="100%" color="#28aaff" class="sc-gtssRu sc-dlnjPT gdCCGz cuIYFB"></div>
+    <div style="padding: 160px 20% 10px 20%">
+        <div id="main-content">
+            <h1><%= post.title %></h1>
+            <%- post.content %>
         </div>
-        <div class="sc-hmbsMR sc-eKYRpg jBZEHi fmrijR">
-          <div class="sc-TtZHJ sc-jHNhIU bGSksK cwnvIr">
-            <div class="sc-bTDODP sc-kHWWFa kmjNqQ bhyOal">
-              <h2 class="sc-fXazxj imWkUS"><span>About</span> Us</h2>
-            </div>
-            <p class="Text-svzcrs-0 hXwzaM">
-              Mining City is a global company that offers hash power to mine cryptocurrencies. Through experience and
-              technological know-how, Mining City earned the trust of customers around the world!
-            </p>
-          </div>
-          <div class="sc-jOFreG eJiqvG">
-            <div class="sc-bdnylx ctezCv">
-              <div width="20%" height="101%" color="#ffffff" class="sc-gtssRu sc-dlnjPT kykbLb cuIYFB"></div>
-            </div>
-            <div class="sc-bdnylx hGmODR">
-              <div width="20%" height="100%" color="#ffffff" class="sc-gtssRu sc-dlnjPT jwYYOu cuIYFB"></div>
-            </div>
-            <div class="sc-bdnylx bMZCTr">
-              <div width="100%" height="56px" color="#28aaff" class="sc-gtssRu sc-iCoHVE cMlhkF knnrxv"></div>
-            </div>
-            <div class="sc-bdnylx bMZCTr">
-              <div width="100%" height="56px" color="#28aaff" class="sc-gtssRu sc-iCoHVE kkxvqH knnrxv"></div>
-            </div>
-            <div class="sc-FRqcf dXpstt">
-              <img src="./static/lp_photo_1-3-scaled.jpg" alt="About Us">
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="sc-dvXXZy eqfPow">
-        <div class="sc-bdnylx hGmODR">
-          <div width="10%" height="100%" color="#5ec0ff" class="sc-gtssRu sc-hKFyIo cmogLN bdDYJz"></div>
-        </div>
-        <div class="sc-bdnylx ctezCv">
-          <div width="8%" height="90%" color="#5ec0ff" class="sc-gtssRu sc-hKFyIo hSKljQ bdDYJz"></div>
-        </div>
-        <div class="sc-hmbsMR jBZEHi">
-          <div class="sc-jOFreG eJiqvG">
-            <div class="sc-bdnylx ctezCv">
-              <div width="20%" height="102%" color="#ffffff" class="sc-gtssRu sc-eCApGN dHKSqT htLRdL"></div>
-            </div>
-            <div class="sc-bdnylx bMZCTr">
-              <div width="100%" height="56px" color="#28aaff" class="sc-gtssRu sc-gKAblj cvzlVq boPkKw"></div>
-            </div>
-            <div class="sc-bdnylx bMZCTr">
-              <div width="100%" height="56px" color="#28aaff" class="sc-gtssRu sc-gKAblj eIvVSk boPkKw"></div>
-            </div>
-            <div class="sc-FRqcf dXpstt"><img src="./static/greg-7.png" alt="About the CEO"></div>
-          </div>
-          <div class="sc-TtZHJ sc-amjdv bGSksK ctMIzp">
-            <div class="sc-bTDODP sc-hOPghE kmjNqQ NzEgA">
-              <h2 class="sc-fXazxj imWkUS"><span>About</span> the CEO</h2>
-            </div>
-            <p class="Text-svzcrs-0 hXwzaM">Greg Rogowski founded Mining City in 2019 and has grown it into one of the
-              most successful and dynamic companies in the sector. He had previously been involved in the marketing and
-              media sectors of major European media brands, covering TV, radio, newspapers, and magazines. He found a
-              good pivot in crypto mining and has traveled much of the world preaching the merits of cryptocurrencies.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="howto">
-      <div class="sc-dsXyEt flVKWq">
-        <div class="sc-bdnylx hGmODR">
-          <div width="60%" height="167px" color="#74cbff" class="sc-gtssRu sc-hKFyIo ejMYRf bdDYJz"></div>
-        </div>
-        <div class="sc-bXevSJ gCNrLt">
-          <div class="sc-bdnylx ctezCv">
-            <div width="101%" height="107px" color="#74cbff" class="sc-gtssRu sc-hKFyIo jzPmcP bdDYJz"></div>
-          </div>
-        </div>
-        <div class="sc-bdnylx ctezCv">
-          <div width="100%" height="167px" color="#74cbff" class="sc-gtssRu sc-jSFkmK dYoOrv jGLdVH"></div>
-        </div>
-        <div class="sc-bdnylx bMZCTr">
-          <div width="120%" height="70px" color="#74cbff" class="sc-gtssRu sc-gKAblj fkdRWw boPkKw"></div>
-        </div>
-        <div class="sc-bdnylx bMZCTr">
-          <div width="120%" height="70px" color="#74cbff" class="sc-gtssRu sc-iCoHVE dwZNOP knnrxv"></div>
-        </div>
-        <div class="sc-eGJXgd bokBDO">
-          <h2 class="sc-fXazxj imWkUS sc-csTaMs dqkoYS"><span>How</span> to join the Mining City Community in four easy
-            steps</h2>
-        </div>
-        <div class="sc-daBvwG iQskcc">
-          <div class="sc-jQAyEw emBbeV">
-            <div class="sc-fuIRbl hXwWQH">
-              <div class="sc-Gvgqn eEDHmj">
-                <div class="sc-FRqcf dXpstt"><img src="./static/create-step.svg" alt="Create"></div>
-              </div>
-            </div>
-            <div class="Title-sc-1bh3jmj-0 sc-jUfxsr jxsQPg dvyujH">
-              <div class="sc-gsWdvU bHxsHx">1</div>
-              <h3>CREATE AN ACCOUNT</h3>
-            </div>
-            <p class="Text-svzcrs-0 hXwzaM">Sign up by simply providing your referrer’s username, and then entering your
-              desired username and contact details! It’s that easy!</p>
-          </div>
-          <div class="sc-jQAyEw emBbeV">
-            <div class="sc-fcmNTy eXNXqu">
-              <div class="sc-Gvgqn eEDHmj">
-                <div class="sc-FRqcf dXpstt"><img src="./static/buy-step.svg" alt="Buy"></div>
-              </div>
-            </div>
-            <div class="Title-sc-1bh3jmj-0 sc-jUfxsr jxsQPg dvyujH">
-              <div class="sc-gsWdvU bHxsHx">2</div>
-              <h3>BUY A MINING PLAN</h3>
-            </div>
-            <p class="Text-svzcrs-0 hXwzaM">Choose the most suitable mining plan for you with no membership fees or
-              hidden costs! What are you waiting for? Let us help you join the cryptocurrency world!</p>
-          </div>
-          <div class="sc-jQAyEw emBbeV">
-            <div class="sc-Gvgqn eEDHmj">
-              <div class="sc-FRqcf dXpstt"><img src="./static/mine-step.svg" alt="Mine"></div>
-            </div>
-            <div class="Title-sc-1bh3jmj-0 sc-jUfxsr jxsQPg dvyujH">
-              <div class="sc-gsWdvU bHxsHx">3</div>
-              <h3>LET US MINE CRYPTO FOR YOU</h3>
-            </div>
-            <p class="Text-svzcrs-0 hXwzaM">Mining City will mine cryptocurrency for you with a globally competitive
-              rate and at maximum efficiency, ensuring that you receive the most competitive mining rewards possible!
-            </p>
-          </div>
-          <div class="sc-jQAyEw emBbeV">
-            <div class="sc-Gvgqn eEDHmj">
-              <div class="sc-FRqcf dXpstt"><img src="./static/earn-step.svg" alt="Earn"></div>
-            </div>
-            <div class="Title-sc-1bh3jmj-0 sc-jUfxsr jxsQPg dvyujH">
-              <div class="sc-gsWdvU bHxsHx">4</div>
-              <h3>EARN CRYPTO AND BUILD YOUR FUTURE</h3>
-            </div>
-            <p class="Text-svzcrs-0 hXwzaM">We distribute mining rewards as well as referral rewards on a regular basis.
-              Check your mining potential based on your mining plan!</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    </div>
     <section class="styled__Container-sc-7y974v-0 jsQpcr">
       <form class="styled__ContentWrapper-sc-7y974v-1 dangAn">
         <div class="sc-bdnylx dlDNpc">
@@ -209,7 +65,7 @@
         <div class="sc-bdnylx bUlSOE">
           <div width="100%" height="40px" color="#ffffff" class="sc-gtssRu sc-hKFyIo hxNKQy bdDYJz"></div>
         </div>
-        <h2 class="sc-fXazxj imWkUS ContactUs__ContactUsContentTitle-d1xsyp-1 GOFDj"><span>Contact</span> us</h2>
+        <h2 style="color: black;" class="sc-fXazxj imWkUS ContactUs__ContactUsContentTitle-d1xsyp-1 GOFDj"><span>Contact</span> us</h2>
         <div>Email:<a href="mailto:support@miningcity.com"
             class="Text-svzcrs-0 ContactUs__MailToLink-d1xsyp-0 hXwzaM entsLD">support@miningcity.com</a></div>
       </form>
@@ -328,5 +184,4 @@
     </div>
   </footer>
 </body>
-
 </html>

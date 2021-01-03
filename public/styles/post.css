@@ -1,0 +1,42 @@
+#main-content {
+  display: block;
+}
+
+#main-content h1,
+h2,
+h3,
+h4 {
+  color: #1e73be;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+#main-content a {
+  margin: 0;
+  color: #411ebe;
+  text-decoration: none;
+}
+
+#main-content h1 {
+  font-size: 50px;
+}
+
+#main-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main-content p {
+    margin-bottom: 20px;
+}
+
+#main-content blockquote {
+  border-left: 4px solid #000;
+  padding-left: 1em;
+  margin: 2rem 0;
+  color: #9daab9;
+  position: relative;
+  line-height: 30px;
+  padding: 0 3rem;
+}
