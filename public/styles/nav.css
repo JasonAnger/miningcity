@@ -1,16 +1,18 @@
 * {
-    padding: 0;
-    margin: 0;
-    border: none;
-    font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-family: "Roboto", sans-serif;
 }
 
-*, ::before, ::after {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    border: none;
-    vertical-align: baseline;
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  vertical-align: baseline;
 }
 
 h2 {
@@ -18,8 +20,8 @@ h2 {
 }
 
 a {
-    text-decoration: none;
-    margin: 0 20px;
+  text-decoration: none;
+  margin: 0 20px;
 }
 
 p {
@@ -27,7 +29,7 @@ p {
 }
 
 .nav-back-white {
-    clip-path: polygon(0px 0px, 0% 100%, 100% 0px);
+  clip-path: polygon(0px 0px, 0% 100%, 100% 0px);
   height: 160px;
   width: 550px;
   padding: 30px 0px 0px 30px;
@@ -88,7 +90,7 @@ p {
   margin: 0;
 }
 
-.nav-logo svg {
+.nav-logo img {
   height: 55px;
 }
 
@@ -110,7 +112,7 @@ p {
 }
 
 .nav-main a {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: white;
   font-size: 18px;
@@ -119,4 +121,94 @@ p {
 
 .nav-main a:hover {
   color: rgb(212, 243, 255);
+}
+
+.blue-rect {
+  display: block;
+  width: 100%;
+  top: 100vh;
+  position: absolute;
+}
+#burger-nav {
+  display: none;
+  top: 10px;
+  right: 10px;
+  z-index: 200;
+  position: fixed;
+}
+.burger-line {
+  width: 30px;
+  height: 5px;
+  background-color: #28aaff;
+  border-radius: 3px;
+  margin: 5px 0;
+}
+.videoContainer {
+  max-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .nav-back-white {
+    clip-path: polygon(0px 0px, 0% 100%, 300% 0px);
+    width: 100%;
+    height: 80px;
+  }
+  .nav-back-gray {
+    height: 100px;
+    width: 100%;
+  }
+  .nav-back-blue {
+    height: 90px;
+  }
+  .nav-logo {
+    left: 10px;
+    top: 10px;
+    width: 200px;
+  }
+  .nav-logo img {
+    height: 40px;
+  }
+  .nav-main {
+    position: fixed;
+    z-index: 2;
+    display: none;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0px;
+    background-color: #28aaffb3;
+  }
+  .nav-main ul {
+    flex-direction: column;
+  }
+  .nav-main ul li {
+    margin: 15px 0;
+  }
+
+  /* Header content */
+  .videoContainer {
+    max-height: 80vh;
+  }
+  .gosmXj {
+    height: 80vh;
+  }
+  .blue-rect {
+    top: 80vh;
+  }
+  .iZrtTy {
+    height: 50px;
+    width: 100%;
+  }
+  .iZrtTy::after {
+    content: "";
+    clip-path: polygon(0px 100%, 100% 100%, 100% 0px);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    height: 100px;
+    padding-bottom: 100px;
+    background: rgb(40, 170, 255);
+  }
+  #burger-nav {
+    display: block;
+  }
 }

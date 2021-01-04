@@ -89,3 +89,30 @@ footer {
     flex-direction: row;
 }
 
+@media (max-width: 768px) {
+    .ejMYRf {
+    display: none;
+    }
+    footer a {
+        margin: 0 10px;
+    }
+    .jDwODi {
+        display: block;
+        margin: 3px auto 10px;
+    }
+    .jDwODi a{
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .wBAUy {
+        display: block;
+    }
+    .wBAUy a {
+        display: block;
+        text-align: center;
+    }
+    .gjrviO::after {
+        clip-path: polygon(0px 100%, 100% 100%, 100% 60%);
+    }
+}

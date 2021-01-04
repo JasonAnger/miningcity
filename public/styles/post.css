@@ -1,3 +1,7 @@
+#content-holder {
+  padding: 160px 20% 10px 20%;
+}
+
 #main-content {
   display: block;
 }
@@ -28,7 +32,7 @@ h4 {
 }
 
 #main-content p {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #main-content blockquote {
@@ -40,4 +44,22 @@ h4 {
   position: relative;
   line-height: 30px;
   padding: 0 3rem;
+}
+
+@media (max-width: 768px) {
+  #content-holder {
+    padding: 120px 0% 10px 0%;
+  }
+  #main-content {
+    display: block;
+    width: 90%;
+    margin: 0 5%;
+  }
+  #main-content h1 {
+    font-size: 35px;
+  }
+  #main-content img {
+    width: 90vw;
+    height: auto;
+  }
 }

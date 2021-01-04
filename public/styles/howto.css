@@ -150,3 +150,26 @@
     padding-bottom: 167px;
     background: rgb(116, 203, 255);
 }
+
+
+
+@media (max-width: 768px) {
+    .hXwzaM {
+        padding-left: 28px;
+    }
+    .iQskcc {
+        flex-direction: column;
+    }
+    .jGLdVH::after {
+        clip-path: polygon(0px 100px, 0px 100%, 100% 100%);
+    }
+    .eEDHmj {
+        padding-left: 0px; 
+    }
+    .dXpstt img {
+        z-index: -1;
+    }
+    .dYoOrv {
+        display: none; 
+    }
+}

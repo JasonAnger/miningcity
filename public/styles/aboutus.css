@@ -1,195 +1,246 @@
 .eqfPow {
-    position: relative;
+  position: relative;
 }
 
 .ctezCv {
-    display: block;
+  display: block;
 }
 
 .gdCCGz {
-    position: absolute;
-    background: transparent;
-    display: block;
-    z-index: 0;
-    width: 10%;
-    height: 100%;
-    left: 0px;
-    top: 0px;
+  position: absolute;
+  background: transparent;
+  display: block;
+  z-index: 0;
+  width: 10%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
 }
 
 .gdCCGz::after {
-    content: "";
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    height: 100%;
-    padding-bottom: 100%;
-    background: rgb(40, 170, 255);
+  content: "";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  height: 100%;
+  padding-bottom: 100%;
+  background: rgb(40, 170, 255);
 }
 
 .cuIYFB::after {
-    clip-path: polygon(100% 0px, 0px 0px, 0px 100%);
+  clip-path: polygon(100% 0px, 0px 0px, 0px 100%);
 }
 
 .jBZEHi {
-    display: flex;
-    flex-direction: row;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    align-items: center;
-    overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .eJiqvG {
-    padding: 0px;
-    flex-basis: 50%;
-    position: relative;
+  padding: 0px;
+  flex-basis: 50%;
+  position: relative;
 }
 
 .bGSksK {
-    flex-basis: 50%;
-    padding-top: 0px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding: 0px 28px;
+  flex-basis: 50%;
+  padding-top: 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 28px;
 }
 
 .cwnvIr {
-    padding-left: 15%;
-    align-items: flex-start;
+  padding-left: 15%;
+  align-items: flex-start;
 }
 
 .ctMIzp {
-    padding-left: 100px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+  padding-left: 100px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .bhyOal {
-    align-self: flex-start;
+  align-self: flex-start;
 }
 
 .kmjNqQ {
-    display: flex;
-    margin-left: -45px;
-    z-index: 0;
+  display: flex;
+  margin-left: -45px;
+  z-index: 0;
 }
 
 .imWkUS {
-    font-size: 64px;
-    margin-bottom: 47px;
-    display: block;
-    letter-spacing: 1px;
+  font-size: 64px;
+  margin-bottom: 47px;
+  display: block;
+  letter-spacing: 1px;
 }
 
 .imWkUS span {
-    color: rgb(40, 170, 255);
-    font-weight: 700;
+  color: rgb(40, 170, 255);
+  font-weight: 700;
 }
 
 .bGSksK p {
-    max-width: 480px;
-    font-size: 18px;
-    line-height: 22px;
-    letter-spacing: 1px;
-    position: relative;
+  max-width: 480px;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  position: relative;
 }
 
 .bGSksK p::after {
-    content: "";
-    position: absolute;
-    top: 8px;
-    left: -16px;
-    width: 4px;
-    height: 36px;
-    background-color: rgb(40, 170, 255);
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: -16px;
+  width: 4px;
+  height: 36px;
+  background-color: rgb(40, 170, 255);
 }
 
 .kykbLb {
-    position: absolute;
-    background: transparent;
-    display: block;
-    z-index: 1;
-    width: 20%;
-    height: 101%;
-    left: -1px;
-    top: -5px;
+  position: absolute;
+  background: transparent;
+  display: block;
+  z-index: 1;
+  width: 20%;
+  height: 101%;
+  left: -1px;
+  top: -5px;
 }
 
 .cuIYFB::after {
-    clip-path: polygon(100% 0px, 0px 0px, 0px 100%);
+  clip-path: polygon(100% 0px, 0px 0px, 0px 100%);
 }
 
 .kykbLb::after {
-    content: "";
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    height: 100%;
-    padding-bottom: 100%;
-    background: rgb(255, 255, 255);
+  content: "";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  height: 100%;
+  padding-bottom: 100%;
+  background: rgb(255, 255, 255);
 }
 
 .dXpstt {
-    width: 100%;
-    height: auto;
-    display: flex;
+  width: 100%;
+  height: auto;
+  display: flex;
 }
 
 .dXpstt img {
-    width: 100%;
-    z-index: 0;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .dHKSqT {
-    position: absolute;
-    background: transparent;
-    display: block;
-    z-index: 1;
-    width: 20%;
-    height: 102%;
-    right: -1px;
-    top: 0px;
+  position: absolute;
+  background: transparent;
+  display: block;
+  z-index: 1;
+  width: 20%;
+  height: 102%;
+  right: -1px;
+  top: 0px;
 }
 
 .htLRdL::after {
-    clip-path: polygon(0px 100%, 100% 100%, 100% 0px);
+  clip-path: polygon(0px 100%, 100% 100%, 100% 0px);
 }
 
 .dHKSqT::after {
-    content: "";
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    height: 102%;
-    padding-bottom: 102%;
-    background: rgb(255, 255, 255);
+  content: "";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  height: 102%;
+  padding-bottom: 102%;
+  background: rgb(255, 255, 255);
 }
 
 .hSKljQ {
-    position: absolute;
-    background: transparent;
-    display: block;
-    z-index: 0;
-    width: 8%;
-    height: 90%;
-    right: 0px;
-    top: -1px;
+  position: absolute;
+  background: transparent;
+  display: block;
+  z-index: 0;
+  width: 8%;
+  height: 90%;
+  right: 0px;
+  top: -1px;
 }
 
 .bdDYJz::after {
-    clip-path: polygon(100% 100%, 100% 0px, 0px 0px);
+  clip-path: polygon(100% 100%, 100% 0px, 0px 0px);
 }
 
 .hSKljQ::after {
-    content: "";
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    height: 90%;
-    padding-bottom: 90%;
-    background: rgb(94, 192, 255);
+  content: "";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  height: 90%;
+  padding-bottom: 90%;
+  background: rgb(94, 192, 255);
+}
+
+@media (max-width: 768px) {
+  .htLRdL::after {
+    clip-path: polygon(-30% 50%, 100% 100%, 100% 0);
+  }
+  .gdCCGz {
+    display: none;
+  }
+  .cwnvIr {
+    padding-left: 10%;
+  }
+  .kmjNqQ {
+    display: flex;
+    margin-left: -17px;
+    z-index: 0;
+  }
+  .dXpstt img {
+    z-index: -1;
+  }
+  .jBZEHi {
+    flex-direction: column;
+  }
+  .fmrijR {
+    flex-direction: column-reverse;
+  }
+  .kykbLb {
+    display: none;
+  }
+  .imWkUS {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .hXwzaM {
+    padding-left: 10px;
+  }
+  .bGSksK {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .dXpstt {
+    clip-path: polygon(0% 4%, 0% 99%, 384% 50%);
+  }
+  .dHKSqT {
+    display: none;
+  }
+  .hSKljQ {
+    display: none; 
+  }
+  .ctMIzp {
+    padding-left: 10%;
+  }
 }

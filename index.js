@@ -4,7 +4,7 @@ const fetch = require('node-fetch')
 const path = require('path')
 const mongoose = require('mongoose')
 
-const port = process.env.PORT || 4000
+const port = process.env.PORT || 8080
 
 const Post = require('./models/Post.model')
 require('dotenv').config()
@@ -37,7 +37,7 @@ app.get('/btcv', async (req,res) => {
     res.render('btcv', {post: post})
 })
 app.get('/elcash', async (req,res) => {
-    const post = await Post.findOne({_id: "5ff218fb5b4c0d0910ff4c66"})
+    const post = await Post.findOne({_id: "5ff34e4499abf75ff8c16238"})
     res.render('elcash', {post: post})
 })
 app.get('/muagoidao', async (req,res) => {
