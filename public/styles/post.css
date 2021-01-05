@@ -40,16 +40,14 @@ h4 {
 
 #main-content p {
   font-size: 22px;
+  line-height: 34px;
+  margin-bottom: 20px;
 }
 
 #main-content img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-#main-content p {
-  margin-bottom: 20px;
 }
 
 #main-content blockquote {
@@ -99,6 +97,12 @@ h4 {
   }
   #main-content h1 {
     font-size: 35px;
+  }
+  #main-content h2 {
+    font-size: 32px;
+  }
+  #main-content h3 {
+    font-size: 26px;
   }
   #main-content img {
     width: 90vw;
