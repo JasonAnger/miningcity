@@ -104,4 +104,8 @@ h4 {
     width: 90vw;
     height: auto;
   }
+  .post-card {
+    margin: 10px 5%; 
+    width: 90%;
+  }
 }
