@@ -1,5 +1,6 @@
 #content-holder {
-  padding: 160px 20% 10px 20%;
+  padding: 160px 15% 10px 15%;
+  min-height: 70vh;
 }
 
 #main-content {
@@ -25,6 +26,22 @@ h4 {
   font-size: 50px;
 }
 
+#main-content h2 {
+  font-size: 40px;
+}
+
+#main-content h3 {
+  font-size: 30px;
+}
+
+#main-content ul li {
+  font-size: 22px;
+}
+
+#main-content p {
+  font-size: 22px;
+}
+
 #main-content img {
   display: block;
   margin-left: auto;
@@ -44,6 +61,31 @@ h4 {
   position: relative;
   line-height: 30px;
   padding: 0 3rem;
+}
+
+/* POST LIST */
+.post-list {
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: justify;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.headtext {
+  text-align: center;
+  font-size: 46px;
+  color: #1e73be;
+}
+
+.post-card {
+  margin: 10px; 
+  width: 30%;
+}
+
+.post-list h4 {
+  font-size: 27px;
+  color: #1e73be;
 }
 
 @media (max-width: 768px) {

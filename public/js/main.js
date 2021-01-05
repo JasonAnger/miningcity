@@ -64,3 +64,9 @@ window.onload = function(){
         }
       }, 200)
 }
+
+let videoOnload = async () => {
+    if(document.getElementById("autoplayvid")) {
+        await document.getElementById("autoplayvid").play()
+    }
+}

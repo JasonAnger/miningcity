@@ -7,10 +7,8 @@
   <link rel="icon" href="/images/miningcity-256.png" type="image/png">
   <%- include('styles'); -%>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
-    rel="stylesheet">
-  <title>Mining City</title>
-  <script src="/js/main.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <title><%= post.title %> - Sàn giao dịch</title><script src="/js/main.js"></script>
 </head>
 
 <body>
@@ -19,18 +17,15 @@
   </header>
   <main>
     <div id="content-holder">
-      <div id="main-content">
-        <h1>
-          <%= post.title %>
-        </h1>
-        <%- post.content %>
-          <h2>Hỏi - Đáp toàn tập về Mining City: <a
-              href="https://me.miningcity.com/assets/img/pdf/faq/desktop/btc-faq-vi.pdf">tại đây</a></h2>
-      </div>
+        <div id="main-content">
+            <h1><%= post.title %></h1>
+            <%- post.content %>
+            <h2>Hướng dẫn thanh khoản BTCV / ELCASH ra VND</h2>
+            <h2><a href="https://www.facebook.com/dovanminhan/">Tại đây</a></h2>
+        </div>
     </div>
     <%- include('contactus'); -%>
   </main>
   <%- include('footer'); -%>
 </body>
-
 </html>

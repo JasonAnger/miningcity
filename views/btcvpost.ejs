@@ -3,13 +3,13 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
   <link rel="icon" href="/images/miningcity-256.png" type="image/png">
   <%- include('styles'); -%>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
     rel="stylesheet">
-  <title>Mining City</title>
+  <title><%= post.title %> – Bitcoin Vault</title>
   <script src="/js/main.js"></script>
 </head>
 
@@ -24,13 +24,20 @@
           <%= post.title %>
         </h1>
         <%- post.content %>
-          <h2>Hỏi - Đáp toàn tập về Mining City: <a
-              href="https://me.miningcity.com/assets/img/pdf/faq/desktop/btc-faq-vi.pdf">tại đây</a></h2>
+          <a href="https://bitcoinvault.global/">
+            <h2>Tìm hiểu thêm về <span style="color: #f70949;">Bitcoin Vault</span> tại đây.</h2>
+          </a>
+          <h2>Whitepaper: <a href="https://bitcoinvault.global/pdf/whitepaper/bitcoin-vault-whitepaper-en.pdf">tại
+              đây</a></h2>
+          <h2>Hỏi - Đáp toàn tập về BTCV: <a href="https://me.miningcity.com/assets/img/pdf/faq/btcv-faq-vi.pdf">tại
+              đây</a></h2>
       </div>
     </div>
     <%- include('contactus'); -%>
   </main>
   <%- include('footer'); -%>
+  <script>
+  </script>
 </body>
 
 </html>
