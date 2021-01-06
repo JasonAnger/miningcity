@@ -149,6 +149,12 @@ p {
   max-height: 100vh;
 }
 
+@media (max-width: 1650px) {
+  .nav-main ul {
+    padding: 0px 30px; 
+  }
+}
+
 @media (max-width: 768px) {
   .nav-back-white {
     clip-path: polygon(0px 0px, 0% 100%, 300% 0px);
