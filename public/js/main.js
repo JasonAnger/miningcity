@@ -61,6 +61,13 @@ window.onload = function(){
               document.getElementById("main-content").getElementsByTagName("img")[i].style.height = "auto"
             }
           }
+        } else {
+            for (let i = 0; i < document.getElementById("main-content").getElementsByTagName("img").length; i++) {
+                if (Number(document.getElementById("main-content").getElementsByTagName("img")[i].style.width.replace("px", "")) > 500) {
+                  document.getElementById("main-content").getElementsByTagName("img")[i].style.width = "800px"
+                  document.getElementById("main-content").getElementsByTagName("img")[i].style.height = "auto"
+                }
+              }
         }
       }, 200)
 }
