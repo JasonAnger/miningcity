@@ -11,7 +11,7 @@
 h2,
 h3,
 h4 {
-  color: #1e73be;
+  color: #1e73be !important;
   font-weight: 700;
   margin: 5px 0;
 }
