@@ -193,6 +193,10 @@
   background: rgb(94, 192, 255);
 }
 
+main h2 {
+  color: black;
+}
+
 @media (max-width: 768px) {
   .htLRdL::after {
     clip-path: polygon(-30% 50%, 100% 100%, 100% 0);
@@ -233,6 +237,10 @@
   }
   .dXpstt {
     clip-path: polygon(0% 4%, 0% 99%, 384% 50%);
+  }
+  .bGSksK p {
+    font-size: 22px;
+    line-height: 30px;
   }
   .dHKSqT {
     display: none;

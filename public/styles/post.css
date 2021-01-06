@@ -16,6 +16,14 @@ h4 {
   margin: 5px 0;
 }
 
+#main-content h2 a {
+  display: inline-block;
+}
+
+#main-content ul li {
+  margin-left: 30px;
+}
+
 #main-content a {
   margin: 0;
   color: #411ebe;
