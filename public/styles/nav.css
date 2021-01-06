@@ -117,6 +117,8 @@ p {
   color: white;
   font-size: 18px;
   text-transform: uppercase;
+  display: block;
+  text-align: center;
 }
 
 .nav-main a:hover {
@@ -184,7 +186,7 @@ p {
     margin: 15px 0;
   }
 
-  .nav-main ul li a{
+  .nav-main ul li a {
     color: black;
   }
 
