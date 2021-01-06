@@ -194,7 +194,7 @@
 }
 
 main h2 {
-  color: black;
+  color: black !important;
 }
 
 @media (max-width: 768px) {
